@@ -1,0 +1,153 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - HDStreams</title>
+  <link rel="icon" href="Logo.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #1e1e1e;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .category-button {
+      background-color: #2c2c2c;
+      color: white;
+      border: none;
+      padding: 12px;
+      text-align: left;
+      width: 100%;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .category-button:hover {
+      background-color: #444;
+    }
+
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .header {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .video-grid a {
+      text-decoration: none;
+    }
+
+    .video-card {
+      background-color: #1e1e1e;
+      color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+      display: block;
+    }
+
+    .video-card:hover {
+      transform: scale(1.02);
+    }
+
+    .thumbnail {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .logo {
+      max-width: 80%;
+      margin: 10px auto 0;
+      display: block;
+    }
+
+    .video-title {
+      font-size: 0.95rem;
+      margin: 10px;
+      text-align: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <button class="category-button">Home</button>
+    <button class="category-button">Comedy</button>
+    <button class="category-button">Animation</button>
+    <button class="category-button">Action</button>
+    <button class="category-button">Adventure</button>
+    <button class="category-button">Sci-Fi</button>
+    <button class="category-button">Thriller</button>
+    <button class="category-button">Fantasy</button>
+    <button class="category-button">Drama</button>
+  </div>
+
+  <div class="main">
+    <div class="header">HDStreams</div>
+
+    <div class="video-grid">
+      <a href="Squid Game/playlist.html" class="video-card">
+        <img src="Squid Game/Thumbnail.webp" alt="Squid Game Thumbnail" class="thumbnail">
+        <img src="Squid Game/logo.webp" alt="Squid Game Logo" class="logo">
+        <div class="video-title">Drama / Thriller / Survival / Mystery / Crime</div>
+      </a>
+
+      <a href="The Simpsons/playlist.html" class="video-card">
+        <img src="The Simpsons/Thumbnail.webp" alt="The Simpsons Thumbnail" class="thumbnail">
+        <img src="The Simpsons/Logo.webp" alt="The Simpsons Logo" class="logo">
+        <div class="video-title">Comedy / Animation / Satire</div>
+      </a>
+
+      <a href="Adventure Time/playlist.html" class="video-card">
+        <img src="Adventure Time/Thumbnail.webp" alt="Adventure Time Thumbnail" class="thumbnail">
+        <img src="Adventure Time/Logo.webp" alt="Adventure Time Logo" class="logo">
+        <div class="video-title">Animation / Adventure / Fantasy / Comedy</div>
+      </a>
+
+      <a href="Rick and Morty/playlist.html" class="video-card">
+        <img src="Rick and Morty/Thumbnail.webp" alt="Rick and Morty Thumbnail" class="thumbnail">
+        <img src="Rick and Morty/Logo.webp" alt="Rick and Morty Logo" class="logo">
+        <div class="video-title">Animation / Sci-Fi / Comedy / Dark Humor</div>
+      </a>
+
+      <a href="Family Guy/playlist.html" class="video-card">
+        <img src="Family Guy/Thumbnail.webp" alt="Family Guy Thumbnail" class="thumbnail">
+        <img src="Family Guy/Logo.webp" alt="Family Guy Logo" class="logo">
+        <div class="video-title">Animation / Comedy / Satire</div>
+      </a>
+    <a href="Wicked/Wicked.html" class="video-card">
+        <img src="Wicked/Thumbnail.jpg" alt="Wicked Thumbnail" class="thumbnail">
+        <img src="Wicked/WLogo.png" alt="Wicked Logo" class="logo">
+        <div class="video-title">Musical / Fantasy / Drama / Adventure</div>
+      </a><a href="Minecraft Movie/Minecraft Movie.html" class="video-card">
+        <img src="Minecraft Movie/Thumbnail.jpeg" alt="Minecraft Movie Thumbnail" class="thumbnail">
+        <img src="Minecraft Movie/Logo.webp" alt="Minecraft Movie Logo" class="logo">
+        <div class="video-title">Adventure / Comedy / Fantasy / Family / Action</div>
+      </a></div>
+  </div>
+
+
+</body></html>
